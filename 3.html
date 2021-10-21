@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+
+  <img src="imaga/NSFT.jpg" style="width:100%">
+
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"><!--I'm</span>--> Han</h1>
+    <p>For a better tomorrow</p>
+    <video width="800" controls autoplay controls loop>
+    <source src="video/1.mp4">
+      <source src="video/1.ogv">
+    </video>
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey"> Han seung hun</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>アパレル技術科卒業後高度専門士4年生に編入<br>機能性パターンに興味がある。スポーツウェア、アウトドア、機能素材、肩傾斜と袖底の関係性
+      を勉強している。
+    <br>運動量のため、シルエットを最小限にし、デザインより機能性が大事だと考えている。
+  　
+
+
+    </p>
+
+
+<p>
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Used Software</h3>
+
+  <p class="w3-black"></p>
+
+    <p class="w3-black">Pattern Magic2</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:100%"></div>
+    </div>
+    <p class="w3-black">Clo</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+    </div>
+    <p class="w3-black">Blender</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-black">Substance Designer</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-black">Substance Painter</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div>
+    <p class="w3-black">maya</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:45%"></div>
+    </div>
+
+
+    <!-- Testimonials -->
+    <!--
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>
+  -->
+  <!-- End About Section -->
+  <!--
+  </div>
+-->
+
+
+
+<!--
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+  <div id="myChart" style="width:100%; max-width:600px; height:500px;"></div>
+
+  <script>
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+    ['Contry', 'Level'],
+    ['Pattern magic2',98],
+    ['CLO',96],
+    ['Substance Designer',80],
+    ['Blender',75],
+    ['llustrator',75]
+
+  ]);
+
+  var options = {
+   title: 'Used Software',
+   legendTextStyle: { color: '#FFF' }, titleTextStyle: { color: '#fff', fontSize:25 },
+  backgroundColor: '#000000'
+  };
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('myChart'));
+    chart.draw(data, options);
+  }
+
+</script>
+
+</div>
+
+
+-->
+</div>
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Projects</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+       $(document).ready(function () {
+           $("#cf7_controls").on('click', 'span', function () {
+               $("#cf7 img").removeClass("opaque");
+
+               var newImage = $(this).index();
+
+               $("#cf7 img").eq(newImage).addClass("opaque");
+
+               $("#cf7_controls span").removeClass("selected");
+               $(this).addClass("selected");
+           });
+       });
+
+    </script>
+
+
+
+
+    <style>
+       p#cf7_controls {
+           text-align: center;
+       }
+
+       #cf7_controls span {
+           padding-right: 2em;
+           cursor: pointer;
+       }
+
+       #cf7 {
+           position: relative;
+           height: 562px;
+           width: 900px;
+           margin: 0 auto 10px;
+       }
+
+       #cf7 img {
+           position: absolute;
+           width: 900px;
+           height: 562px;
+           left: 0;
+           -webkit-transition: opacity 1s ease-in-out;
+           -moz-transition: opacity 1s ease-in-out;
+           -o-transition: opacity 1s ease-in-out;
+           transition: opacity 1s ease-in-out;
+           opacity: 0;
+           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+           filter: alpha(opacity=0);
+       }
+
+       #cf7 img.opaque {
+           opacity: 1;
+           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+           filter: alpha(opacity=1);
+       }
+    </style>
+
+
+
+
+    <body>
+       <div id="cf7" class="shadow">
+           <img class='opaque' src="imaga/NSFT.jpg" />
+           <img src="imaga/Execl1.PNG" />
+           <img src="imaga/Execl2.png" />
+           <img src="imaga/execl3.PNG" />
+           <img src="imaga/execl4.png" />
+       </div>
+       <p id="cf7_controls">
+           <span class="selected">A</span>
+           <span>B</span>
+           <span>C</span>
+           <span>D</span>
+            <span>F</span>
+       </p>
+</body>
+
+    <!-- Grid for photos -->
+    <!--
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="Water.png" style="width:100%">
+        <img src="Water.png" style="width:100%">
+        <img src="Water.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="Water.png" style="width:100%">
+        <img src="Water.png" style="width:100%">
+        <img src="Water.png" style="width:100%">
+        <img src="Water.png" style="width:100%">
+      </div>
+    -->
+    <!-- End photo grid -->
+
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Tokyo Japan</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +81 0000000</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: nsft8884@gmail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <!--
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  -->
+    <!--
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
